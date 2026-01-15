@@ -275,14 +275,19 @@ footer .footer-container {
 
 .footer-container img{
     font-size: 35px;
-    margin-bottom: 20px;
+  
     
 }
-.footer-container .icons a {
-   margin-right: 24px;
-}
-.ft-text{
+
+.ft-text {
   text-align: center;
   color: #ffffff;
-  margin-bottom: 40px;
+  font-size: 14px;
 }
+
+.icons{
+  display: flex;
+justify-content: space-between;
+gap: 10px;
+}
+
